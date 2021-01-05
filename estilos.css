@@ -1,0 +1,30 @@
+body{
+	background-image: url(img/fondo.jpg);
+	position:relative;
+}
+div {
+	background-image:url(img/fondo.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	text-align: center;
+	color: white;
+	font-size: ;
+}
+header {
+	background-color: darkgrey;
+}
+div.h1 {
+ font-size: 5em;
+}
+
+
+main {
+	background-color:white;
+	color:black;
+	width: 900px;
+	margin-top: 100px;
+}
+
+
