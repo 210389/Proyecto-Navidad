@@ -7,25 +7,29 @@
 	<link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-	<div>	<h1><strong>VIAJES BOSCO</strong></h1>
-	<P><em>Las mejores aventuras por todo el mundo gestionadas por tu propio centro educativo</em></P>
+	<div>	
+		<section class="titulo">
+			<h1><strong>VIAJES BOSCO</strong></h1>
+			<P><em>Las mejores aventuras por todo el mundo gestionadas por tu propio centro educativo</em></P>
+			<img src="img/abajo-1.png" alt="flecha">
+		</section>
 	
 	<header>
-		<nav>
-			<h3>INTRODUCCIÓN</h3>
-			<h3><a href="#india">INDIA</h3>
-			<h3><a href="#mexico">MÉXICO</h3>
-			<h3><a href="#nuevazelanda">NUEVA ZELANDA</h3>
-			<h3><a href="#Peru">PERÚ</h3>
-			<h3><a href="#islandia">ISLANDIA</h3>
-			<h3><a href="#japon">JAPÓN</h3>
+		<nav class="menu">
+			<p>INTRODUCCIÓN</p>
+			<p><a href="#india">INDIA</p>
+			<p><a href="#mexico">MÉXICO</p>
+			<p><a href="#nuevazelanda">NUEVA ZELANDA</p>
+			<p><a href="#Peru">PERÚ</p>
+			<p><a href="#islandia">ISLANDIA</p>
+			<p><a href="#japon">JAPÓN</p>
 		</nav>	
 	</header>
 	</div>
 	<main>
 		<h1>NO SUEÑES, VUELA DE VERDAD</h1>
 		<p><em>Tenemos los mejores aviones hacia destinos de todo el planeta. Sólo dinos dónde quieres ir</em></p>
-		<img src="img/abajo-1.png" alt="click_abajo">
+		<img id="aeropuerto" src="img/viaje.jpg" alt="aeropuerto">
 		<section>
 			<article id="india">
 				<h1>INDIA</h1>
@@ -38,28 +42,58 @@
 			</article>
 			<article id="mexico">
 				<h1>MÉXICO</h1>
+				<figure>
+					<img src="img/mexico.jpg" alt="Mexico">
+					<figcaption><a href="mexico">
+						Haz click para elegir este destino
+					</a></figcaption>
+				</figure>
 			</article>
 			<article id="nuevazelanda">
 				<h1>NUEVA ZELANDA</h1>
+				<figure>
+					<img src="img/nuevazelanda.jpg" alt="nuevazelanda">
+					<figcaption><a href="NUEVA_ZELANDA">
+						Haz click para elegir este destino
+					</a></figcaption>
+				</figure>
 			</article>
 			<article id="Peru">
 				<h1>PERÚ</h1>
+				<figure>
+					<img src="img/peru.jpg" alt="Peru">
+					<figcaption><a href="Peru">
+						Haz click para elegir este destino
+					</a></figcaption>
+				</figure>
 			</article>
 			<article id="islandia">
 				<h1>ISLANDIA</h1>
+				<figure>
+					<img src="img/islandia.jpg" alt="Islandia">
+					<figcaption><a href="islandia">
+						Haz click para elegir este destino
+					</a></figcaption>
+				</figure>
 			</article>
 			<article id="japon">
 				<h1>JAPÓN</h1>
+				<figure>
+					<img src="img/japon.jpg" alt="Japon">
+					<figcaption><a href="japon">
+						Haz click para elegir este destino
+					</a></figcaption>
+				</figure>
 			</article>			
 		</section>	
-	</main>
-	<form action="">
+	
+	<form action="#">
 		<h1>ENVÍO DE DATOS</h1>
-		<label for="nombre">NOMBRE</label>
+		<label for="nombre">NOMBRE</label><br>
 		<input type="text" id=nombre><br>
-		<label for="apellidos">APELLIDOS</label>
+		<label for="apellidos">APELLIDOS</label><br>
 		<input type="text" id=apellidos><br>
-		<label for="email">EMAIL</label>
+		<label for="email">EMAIL</label><br>
 		<input type="email" id="email">
 		<fieldset>
 			<legend>VIAJES DESEADOS</legend>
@@ -76,6 +110,7 @@
 		</fieldset>
 		<button type="submit">ENVIAR</button>
 	</form>
+	</main>
 
 	<script src="jquery-3.5.0.min.js"></script>
 
