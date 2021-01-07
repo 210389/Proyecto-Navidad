@@ -2,11 +2,12 @@ body{
 	background-image:url(img/fondo.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: middle center;
 	background-attachment: fixed;
 	left:0;
 	top:0;
 	text-align: center;
+	vertical-align: center;
+	color: white;
 	
 }
 /*
@@ -25,21 +26,25 @@ div {
 */
 .titulo {
 	position: relative;
- 	font-size: 2em;
- 	margin-top:250px;
- 	color:white;
+ 	font-size: 5em;
+	font-family: "Source Sans Pro Black",sans-serif;
+	vertical-align: middle;
 }
-
+section p {
+	font-size: 2em;
+	font-family: "Merryweathe cursive", sans-serif;
+}
 header {
-	position: absolute;
-	background-color: darkgrey;
-	bottom: 0px;
+	position: relative;
+	background-color:#474b50;
 	height: 50px;
 	width: 900px;
-	left:200px;
 	color:white;
+	bottom:0px;
+	margin-left: auto;
+	margin-right: auto;
 	padding-top:15px;
-
+	word-spacing: 15px;
 }
 
 nav p {
@@ -51,16 +56,18 @@ nav p {
 }
 
 main {
-	position: absolute;
+	position: relative;
 	background-color:white;
-	background-size: contain;
 	color:black;
-	margin-top: 125px;
 	width: 900px;
-	left:200px;
-	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
 }
 
+article {
+	display: inline;
+}
 figure img {
 	position: relative;
 	margin:15px;
