@@ -6,35 +6,32 @@ body{
 	left:0;
 	top:0;
 	text-align: center;
-	vertical-align: center;
+	vertical-align: middle;
 	color: white;
 	
 }
-/*
-div {
-	background-image:url(img/fondo.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	left:0;
-	top:0;
-	width: 100%;
+
+.portada{
+	position: relative;
 	height: 100%;
-	position:absolute;
+	width: 100%;
 	text-align: center;
-	overflow: hidden;
+
 }
-*/
 .titulo {
+
 	position: relative;
  	font-size: 5em;
 	font-family: "Source Sans Pro Black",sans-serif;
 	vertical-align: middle;
+	height: 100%;
+	width: 100%;
 }
-section p {
+p {
 	font-size: 2em;
-	font-family: "Merryweathe cursive", sans-serif;
+	font-family: "Merryweathe cursive",serif;
 }
-header {
+nav {
 	position: relative;
 	background-color:#474b50;
 	height: 50px;
@@ -43,57 +40,143 @@ header {
 	bottom:0px;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top:15px;
 	word-spacing: 15px;
+	vertical-align: center;
 }
 
-nav p {
-	
-	display:inline;
+nav ul {
 	padding-right:15px;
-
+	padding-top:15px;
+	list-style: none;
+	overflow: hidden;
 
 }
+
+nav ul li {
+	float:left;
+	padding: 15px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+
+nav ul li a:hover{
+	background-color: black;
+	text-decoration: none;
+}
+
+/*.menu {
+	position:fixed;
+	top:0;
+	z-index:5;
+	margin-left: auto;
+	margin-right: auto;
+
+}*/
 
 main {
 	position: relative;
 	background-color:white;
 	color:black;
-	width: 900px;
+	width: 820px;
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 10px;
+	text-decoration-line: none;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 40px;
 }
 
-article {
+main h1 {
+	font-size: 3em;
+	font-family: "Source Code Sans", serif;
+	color:black;
+	text-decoration-line: none;
+	
+}
+main p {
+	font-size: 1.5em;
+	font-family: "Merryweathe cursive",serif;
+	color: black;
+}
+
+/*.articulos {
+	position: relative;
 	display: inline;
+	float: right;
+	margin-right: 40px;
+	margin-left: 40px;
+}*/
+
+article {
+	text-align: center;
+	justify-content: center;
 }
 figure img {
 	position: relative;
 	margin:15px;
-	height: 200px;
-	width: 200px;
+	height: 40%;
+	width: 40%;
 	padding-left:0px;
 	display: inline-block;
+	/*float:right;*/
 }
 
 #aeropuerto {
-	height: 450px;
-	width:700px;
+	height: 500px;
+	width:800px;
 }
 
-form {
-	background-color:grey;
-	font-weight: 10px;
+.formulario {
+	background-color:#cad1ce;
 	text-align: left;
+	width: 900px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:0px;
+	padding-top: 80px;
+	margin-bottom: 300px;
+	font-family: "Source Code Sans black", serif ;
+
 
 }
 
-form h1 {
+/*.formulario h1 {
+	left: 300px;
+	font-family: "Source Code Sans black", serif ;
 	text-align: center;
+
+}*/
+
+.botones {
+	width: 100%;
+	padding-left: 40px;
+	margin:15px;
 }
 
-input[type="text"] {
+
+
+input[type="text"], input[type="email"] , input [type="radio"]{
 	
-	width: 800px;
+	width: 810px;
+
+}
+
+button {
+	color: #484b50;
+	border-bottom-color: #484b50;
+	padding: 10px 200px;
+	margin-left:50px;
+	margin-top:40px;
+}
+
+button:hover {
+	background-color: #4096a5;
+	color: white;
+
 }
